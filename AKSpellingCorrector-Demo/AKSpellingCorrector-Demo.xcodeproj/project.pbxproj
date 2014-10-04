@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656AA91119E09527004C423E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA91019E09527004C423E /* main.m */; };
+		656AA91419E09527004C423E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA91319E09527004C423E /* AppDelegate.m */; };
+		656AA91719E09527004C423E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA91619E09527004C423E /* ViewController.m */; };
+		656AA91A19E09527004C423E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656AA91819E09527004C423E /* Main.storyboard */; };
+		656AA91C19E09527004C423E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656AA91B19E09527004C423E /* Images.xcassets */; };
+		656AA91F19E09527004C423E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656AA91D19E09527004C423E /* LaunchScreen.xib */; };
+		656AA92B19E09527004C423E /* AKSpellingCorrector_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA92A19E09527004C423E /* AKSpellingCorrector_DemoTests.m */; };
+		656AA94119E0953B004C423E /* AKCoreDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA93619E0953B004C423E /* AKCoreDataObjects.m */; };
+		656AA94219E0953B004C423E /* AKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA93819E0953B004C423E /* AKDictionary.m */; };
+		656AA94319E0953B004C423E /* AKSpellingCorrector.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA93A19E0953B004C423E /* AKSpellingCorrector.m */; };
+		656AA94419E0953B004C423E /* AKWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA93C19E0953B004C423E /* AKWord.m */; };
+		656AA94519E0953B004C423E /* Dictionary.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 656AA93E19E0953B004C423E /* Dictionary.sqlite */; };
+		656AA94619E0953B004C423E /* Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 656AA93F19E0953B004C423E /* Dictionary.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656AA92519E09527004C423E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656AA90319E09527004C423E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656AA90A19E09527004C423E;
+			remoteInfo = "AKSpellingCorrector-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		656AA90B19E09527004C423E /* AKSpellingCorrector-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKSpellingCorrector-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AA90F19E09527004C423E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656AA91019E09527004C423E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		656AA91219E09527004C423E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		656AA91319E09527004C423E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		656AA91519E09527004C423E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		656AA91619E09527004C423E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		656AA91919E09527004C423E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		656AA91B19E09527004C423E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		656AA91E19E09527004C423E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		656AA92419E09527004C423E /* AKSpellingCorrector-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKSpellingCorrector-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AA92919E09527004C423E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656AA92A19E09527004C423E /* AKSpellingCorrector_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKSpellingCorrector_DemoTests.m; sourceTree = "<group>"; };
+		656AA93519E0953B004C423E /* AKCoreDataObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCoreDataObjects.h; sourceTree = "<group>"; };
+		656AA93619E0953B004C423E /* AKCoreDataObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCoreDataObjects.m; sourceTree = "<group>"; };
+		656AA93719E0953B004C423E /* AKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDictionary.h; sourceTree = "<group>"; };
+		656AA93819E0953B004C423E /* AKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDictionary.m; sourceTree = "<group>"; };
+		656AA93919E0953B004C423E /* AKSpellingCorrector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSpellingCorrector.h; sourceTree = "<group>"; };
+		656AA93A19E0953B004C423E /* AKSpellingCorrector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSpellingCorrector.m; sourceTree = "<group>"; };
+		656AA93B19E0953B004C423E /* AKWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKWord.h; sourceTree = "<group>"; };
+		656AA93C19E0953B004C423E /* AKWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKWord.m; sourceTree = "<group>"; };
+		656AA93E19E0953B004C423E /* Dictionary.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dictionary.sqlite; sourceTree = "<group>"; };
+		656AA94019E0953B004C423E /* Dictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dictionary.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656AA90819E09527004C423E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AA92119E09527004C423E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656AA90219E09527004C423E = {
+			isa = PBXGroup;
+			children = (
+				656AA93419E0953B004C423E /* AKSpellingCorrector */,
+				656AA90D19E09527004C423E /* AKSpellingCorrector-Demo */,
+				656AA92719E09527004C423E /* AKSpellingCorrector-DemoTests */,
+				656AA90C19E09527004C423E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		656AA90C19E09527004C423E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656AA90B19E09527004C423E /* AKSpellingCorrector-Demo.app */,
+				656AA92419E09527004C423E /* AKSpellingCorrector-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656AA90D19E09527004C423E /* AKSpellingCorrector-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				656AA91219E09527004C423E /* AppDelegate.h */,
+				656AA91319E09527004C423E /* AppDelegate.m */,
+				656AA91519E09527004C423E /* ViewController.h */,
+				656AA91619E09527004C423E /* ViewController.m */,
+				656AA91819E09527004C423E /* Main.storyboard */,
+				656AA91B19E09527004C423E /* Images.xcassets */,
+				656AA91D19E09527004C423E /* LaunchScreen.xib */,
+				656AA90E19E09527004C423E /* Supporting Files */,
+			);
+			path = "AKSpellingCorrector-Demo";
+			sourceTree = "<group>";
+		};
+		656AA90E19E09527004C423E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656AA90F19E09527004C423E /* Info.plist */,
+				656AA91019E09527004C423E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656AA92719E09527004C423E /* AKSpellingCorrector-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				656AA92A19E09527004C423E /* AKSpellingCorrector_DemoTests.m */,
+				656AA92819E09527004C423E /* Supporting Files */,
+			);
+			path = "AKSpellingCorrector-DemoTests";
+			sourceTree = "<group>";
+		};
+		656AA92819E09527004C423E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656AA92919E09527004C423E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656AA93419E0953B004C423E /* AKSpellingCorrector */ = {
+			isa = PBXGroup;
+			children = (
+				656AA93519E0953B004C423E /* AKCoreDataObjects.h */,
+				656AA93619E0953B004C423E /* AKCoreDataObjects.m */,
+				656AA93719E0953B004C423E /* AKDictionary.h */,
+				656AA93819E0953B004C423E /* AKDictionary.m */,
+				656AA93919E0953B004C423E /* AKSpellingCorrector.h */,
+				656AA93A19E0953B004C423E /* AKSpellingCorrector.m */,
+				656AA93B19E0953B004C423E /* AKWord.h */,
+				656AA93C19E0953B004C423E /* AKWord.m */,
+				656AA93D19E0953B004C423E /* Data */,
+			);
+			name = AKSpellingCorrector;
+			path = ../AKSpellingCorrector;
+			sourceTree = "<group>";
+		};
+		656AA93D19E0953B004C423E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				656AA93E19E0953B004C423E /* Dictionary.sqlite */,
+				656AA93F19E0953B004C423E /* Dictionary.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656AA90A19E09527004C423E /* AKSpellingCorrector-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656AA92E19E09527004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-Demo" */;
+			buildPhases = (
+				656AA90719E09527004C423E /* Sources */,
+				656AA90819E09527004C423E /* Frameworks */,
+				656AA90919E09527004C423E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKSpellingCorrector-Demo";
+			productName = "AKSpellingCorrector-Demo";
+			productReference = 656AA90B19E09527004C423E /* AKSpellingCorrector-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		656AA92319E09527004C423E /* AKSpellingCorrector-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656AA93119E09527004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-DemoTests" */;
+			buildPhases = (
+				656AA92019E09527004C423E /* Sources */,
+				656AA92119E09527004C423E /* Frameworks */,
+				656AA92219E09527004C423E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656AA92619E09527004C423E /* PBXTargetDependency */,
+			);
+			name = "AKSpellingCorrector-DemoTests";
+			productName = "AKSpellingCorrector-DemoTests";
+			productReference = 656AA92419E09527004C423E /* AKSpellingCorrector-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656AA90319E09527004C423E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = A.Khalaf;
+				TargetAttributes = {
+					656AA90A19E09527004C423E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					656AA92319E09527004C423E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 656AA90A19E09527004C423E;
+					};
+				};
+			};
+			buildConfigurationList = 656AA90619E09527004C423E /* Build configuration list for PBXProject "AKSpellingCorrector-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656AA90219E09527004C423E;
+			productRefGroup = 656AA90C19E09527004C423E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656AA90A19E09527004C423E /* AKSpellingCorrector-Demo */,
+				656AA92319E09527004C423E /* AKSpellingCorrector-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656AA90919E09527004C423E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AA91A19E09527004C423E /* Main.storyboard in Resources */,
+				656AA91F19E09527004C423E /* LaunchScreen.xib in Resources */,
+				656AA91C19E09527004C423E /* Images.xcassets in Resources */,
+				656AA94519E0953B004C423E /* Dictionary.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AA92219E09527004C423E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656AA90719E09527004C423E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AA91719E09527004C423E /* ViewController.m in Sources */,
+				656AA91419E09527004C423E /* AppDelegate.m in Sources */,
+				656AA94419E0953B004C423E /* AKWord.m in Sources */,
+				656AA94219E0953B004C423E /* AKDictionary.m in Sources */,
+				656AA94319E0953B004C423E /* AKSpellingCorrector.m in Sources */,
+				656AA94619E0953B004C423E /* Dictionary.xcdatamodeld in Sources */,
+				656AA91119E09527004C423E /* main.m in Sources */,
+				656AA94119E0953B004C423E /* AKCoreDataObjects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AA92019E09527004C423E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AA92B19E09527004C423E /* AKSpellingCorrector_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656AA92619E09527004C423E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656AA90A19E09527004C423E /* AKSpellingCorrector-Demo */;
+			targetProxy = 656AA92519E09527004C423E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		656AA91819E09527004C423E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656AA91919E09527004C423E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		656AA91D19E09527004C423E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656AA91E19E09527004C423E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656AA92C19E09527004C423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		656AA92D19E09527004C423E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656AA92F19E09527004C423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AKSpellingCorrector-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		656AA93019E09527004C423E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AKSpellingCorrector-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		656AA93219E09527004C423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AKSpellingCorrector-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKSpellingCorrector-Demo.app/AKSpellingCorrector-Demo";
+			};
+			name = Debug;
+		};
+		656AA93319E09527004C423E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AKSpellingCorrector-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKSpellingCorrector-Demo.app/AKSpellingCorrector-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656AA90619E09527004C423E /* Build configuration list for PBXProject "AKSpellingCorrector-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AA92C19E09527004C423E /* Debug */,
+				656AA92D19E09527004C423E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656AA92E19E09527004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AA92F19E09527004C423E /* Debug */,
+				656AA93019E09527004C423E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		656AA93119E09527004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AA93219E09527004C423E /* Debug */,
+				656AA93319E09527004C423E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		656AA93F19E0953B004C423E /* Dictionary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				656AA94019E0953B004C423E /* Dictionary.xcdatamodel */,
+			);
+			currentVersion = 656AA94019E0953B004C423E /* Dictionary.xcdatamodel */;
+			path = Dictionary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 656AA90319E09527004C423E /* Project object */;
+}

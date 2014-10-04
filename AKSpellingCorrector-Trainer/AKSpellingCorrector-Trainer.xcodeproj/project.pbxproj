@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656AA84C19DF4B6C004C423E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA84B19DF4B6C004C423E /* main.m */; };
+		656AA84F19DF4B6C004C423E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA84E19DF4B6C004C423E /* AppDelegate.m */; };
+		656AA85219DF4B6C004C423E /* Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 656AA85019DF4B6C004C423E /* Dictionary.xcdatamodeld */; };
+		656AA85419DF4B6C004C423E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656AA85319DF4B6C004C423E /* Images.xcassets */; };
+		656AA85719DF4B6C004C423E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656AA85519DF4B6C004C423E /* MainMenu.xib */; };
+		656AA86E19DF4C33004C423E /* AKCoreDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA86D19DF4C33004C423E /* AKCoreDataObjects.m */; };
+		656AA87619DF4F38004C423E /* AKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA87519DF4F38004C423E /* AKDictionary.m */; };
+		656AA87919DF4F50004C423E /* AKWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA87819DF4F50004C423E /* AKWord.m */; };
+		656AA87E19DF75D5004C423E /* AKTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AA87D19DF75D5004C423E /* AKTrainer.m */; };
+		656AA94919E0A7B0004C423E /* big.txt in Resources */ = {isa = PBXBuildFile; fileRef = 656AA94819E0A7B0004C423E /* big.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		656AA84619DF4B6C004C423E /* AKSpellingCorrector-Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKSpellingCorrector-Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AA84A19DF4B6C004C423E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656AA84B19DF4B6C004C423E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		656AA84D19DF4B6C004C423E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		656AA84E19DF4B6C004C423E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		656AA85119DF4B6C004C423E /* Dictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dictionary.xcdatamodel; sourceTree = "<group>"; };
+		656AA85319DF4B6C004C423E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		656AA85619DF4B6C004C423E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		656AA86C19DF4C33004C423E /* AKCoreDataObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCoreDataObjects.h; sourceTree = "<group>"; };
+		656AA86D19DF4C33004C423E /* AKCoreDataObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCoreDataObjects.m; sourceTree = "<group>"; };
+		656AA87419DF4F38004C423E /* AKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDictionary.h; sourceTree = "<group>"; };
+		656AA87519DF4F38004C423E /* AKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDictionary.m; sourceTree = "<group>"; };
+		656AA87719DF4F50004C423E /* AKWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKWord.h; sourceTree = "<group>"; };
+		656AA87819DF4F50004C423E /* AKWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKWord.m; sourceTree = "<group>"; };
+		656AA87C19DF75D5004C423E /* AKTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTrainer.h; sourceTree = "<group>"; };
+		656AA87D19DF75D5004C423E /* AKTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTrainer.m; sourceTree = "<group>"; };
+		656AA94819E0A7B0004C423E /* big.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656AA84319DF4B6C004C423E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656AA83D19DF4B6C004C423E = {
+			isa = PBXGroup;
+			children = (
+				656AA84819DF4B6C004C423E /* AKSpellingCorrector-Trainer */,
+				656AA84719DF4B6C004C423E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		656AA84719DF4B6C004C423E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656AA84619DF4B6C004C423E /* AKSpellingCorrector-Trainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656AA84819DF4B6C004C423E /* AKSpellingCorrector-Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				656AA94819E0A7B0004C423E /* big.txt */,
+				656AA94719E09974004C423E /* AKSpellingCorrector */,
+				656AA84D19DF4B6C004C423E /* AppDelegate.h */,
+				656AA84E19DF4B6C004C423E /* AppDelegate.m */,
+				656AA85319DF4B6C004C423E /* Images.xcassets */,
+				656AA85519DF4B6C004C423E /* MainMenu.xib */,
+				656AA84919DF4B6C004C423E /* Supporting Files */,
+			);
+			path = "AKSpellingCorrector-Trainer";
+			sourceTree = "<group>";
+		};
+		656AA84919DF4B6C004C423E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656AA84A19DF4B6C004C423E /* Info.plist */,
+				656AA84B19DF4B6C004C423E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656AA94719E09974004C423E /* AKSpellingCorrector */ = {
+			isa = PBXGroup;
+			children = (
+				656AA85019DF4B6C004C423E /* Dictionary.xcdatamodeld */,
+				656AA86C19DF4C33004C423E /* AKCoreDataObjects.h */,
+				656AA86D19DF4C33004C423E /* AKCoreDataObjects.m */,
+				656AA87419DF4F38004C423E /* AKDictionary.h */,
+				656AA87519DF4F38004C423E /* AKDictionary.m */,
+				656AA87719DF4F50004C423E /* AKWord.h */,
+				656AA87819DF4F50004C423E /* AKWord.m */,
+				656AA87C19DF75D5004C423E /* AKTrainer.h */,
+				656AA87D19DF75D5004C423E /* AKTrainer.m */,
+			);
+			name = AKSpellingCorrector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656AA84519DF4B6C004C423E /* AKSpellingCorrector-Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656AA86619DF4B6C004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-Trainer" */;
+			buildPhases = (
+				656AA84219DF4B6C004C423E /* Sources */,
+				656AA84319DF4B6C004C423E /* Frameworks */,
+				656AA84419DF4B6C004C423E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKSpellingCorrector-Trainer";
+			productName = InitialCoreData;
+			productReference = 656AA84619DF4B6C004C423E /* AKSpellingCorrector-Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656AA83E19DF4B6C004C423E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = A.Khalaf;
+				TargetAttributes = {
+					656AA84519DF4B6C004C423E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 656AA84119DF4B6C004C423E /* Build configuration list for PBXProject "AKSpellingCorrector-Trainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656AA83D19DF4B6C004C423E;
+			productRefGroup = 656AA84719DF4B6C004C423E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656AA84519DF4B6C004C423E /* AKSpellingCorrector-Trainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656AA84419DF4B6C004C423E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AA94919E0A7B0004C423E /* big.txt in Resources */,
+				656AA85419DF4B6C004C423E /* Images.xcassets in Resources */,
+				656AA85719DF4B6C004C423E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656AA84219DF4B6C004C423E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AA84F19DF4B6C004C423E /* AppDelegate.m in Sources */,
+				656AA86E19DF4C33004C423E /* AKCoreDataObjects.m in Sources */,
+				656AA84C19DF4B6C004C423E /* main.m in Sources */,
+				656AA85219DF4B6C004C423E /* Dictionary.xcdatamodeld in Sources */,
+				656AA87619DF4F38004C423E /* AKDictionary.m in Sources */,
+				656AA87919DF4F50004C423E /* AKWord.m in Sources */,
+				656AA87E19DF75D5004C423E /* AKTrainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		656AA85519DF4B6C004C423E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656AA85619DF4B6C004C423E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656AA86419DF4B6C004C423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		656AA86519DF4B6C004C423E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		656AA86719DF4B6C004C423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AKSpellingCorrector-Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		656AA86819DF4B6C004C423E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AKSpellingCorrector-Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656AA84119DF4B6C004C423E /* Build configuration list for PBXProject "AKSpellingCorrector-Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AA86419DF4B6C004C423E /* Debug */,
+				656AA86519DF4B6C004C423E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656AA86619DF4B6C004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AA86719DF4B6C004C423E /* Debug */,
+				656AA86819DF4B6C004C423E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		656AA85019DF4B6C004C423E /* Dictionary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				656AA85119DF4B6C004C423E /* Dictionary.xcdatamodel */,
+			);
+			currentVersion = 656AA85119DF4B6C004C423E /* Dictionary.xcdatamodel */;
+			path = Dictionary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 656AA83E19DF4B6C004C423E /* Project object */;
+}
