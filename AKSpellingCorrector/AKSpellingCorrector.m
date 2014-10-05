@@ -50,6 +50,12 @@
     return string;
 }
 
+-(BOOL)checkWord:(NSString *)string
+{
+    string = [string lowercaseString];
+    return [dictionary objectForKey:string] != nil;
+}
+
 -(NSArray*)known:(NSArray*)strings {
     NSMutableArray* knownWords = [NSMutableArray array];
     for (NSString* string in strings) {

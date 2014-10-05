@@ -56,6 +56,7 @@
 		656AA93C19E0953B004C423E /* AKWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKWord.m; sourceTree = "<group>"; };
 		656AA93E19E0953B004C423E /* Dictionary.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dictionary.sqlite; sourceTree = "<group>"; };
 		656AA94019E0953B004C423E /* Dictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dictionary.xcdatamodel; sourceTree = "<group>"; };
+		65888DAE19E1C36B000BAE3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		656AA90219E09527004C423E = {
 			isa = PBXGroup;
 			children = (
+				65888DAE19E1C36B000BAE3C /* README.md */,
 				656AA93419E0953B004C423E /* AKSpellingCorrector */,
 				656AA90D19E09527004C423E /* AKSpellingCorrector-Demo */,
 				656AA92719E09527004C423E /* AKSpellingCorrector-DemoTests */,
@@ -139,12 +141,12 @@
 		656AA93419E0953B004C423E /* AKSpellingCorrector */ = {
 			isa = PBXGroup;
 			children = (
+				656AA93919E0953B004C423E /* AKSpellingCorrector.h */,
+				656AA93A19E0953B004C423E /* AKSpellingCorrector.m */,
 				656AA93519E0953B004C423E /* AKCoreDataObjects.h */,
 				656AA93619E0953B004C423E /* AKCoreDataObjects.m */,
 				656AA93719E0953B004C423E /* AKDictionary.h */,
 				656AA93819E0953B004C423E /* AKDictionary.m */,
-				656AA93919E0953B004C423E /* AKSpellingCorrector.h */,
-				656AA93A19E0953B004C423E /* AKSpellingCorrector.m */,
 				656AA93B19E0953B004C423E /* AKWord.h */,
 				656AA93C19E0953B004C423E /* AKWord.m */,
 				656AA93D19E0953B004C423E /* Data */,
@@ -392,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				INFOPLIST_FILE = "AKSpellingCorrector-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -403,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				INFOPLIST_FILE = "AKSpellingCorrector-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -463,6 +467,7 @@
 				656AA93019E09527004C423E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		656AA93119E09527004C423E /* Build configuration list for PBXNativeTarget "AKSpellingCorrector-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +476,7 @@
 				656AA93319E09527004C423E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

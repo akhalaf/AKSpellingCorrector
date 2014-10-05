@@ -18,7 +18,8 @@ Please feel free to browse the code, and add your custom changes as you wish.
 #import "AKSpellingCorrector.h"
 
 NSString* correctedString = [[AKSpellingCorrector sharedInstance]correctWord:@"correktion"];
-NSLog(@"corrected string = %@", correctedString);
+
+BOOL stringExist = [[AKSpellingCorrector sharedInstance]checkWord:@"correction"];
 
 ```
 
