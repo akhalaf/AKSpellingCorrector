@@ -124,7 +124,7 @@
     return word;
 }
 
-+ (AKSpellingCorrector*)sharedInstance {
++ (instancetype)sharedInstance {
     static AKSpellingCorrector *_sharedInstance = nil;
     static dispatch_once_t oncePredicate;
     

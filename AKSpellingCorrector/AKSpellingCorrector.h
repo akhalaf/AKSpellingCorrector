@@ -41,6 +41,6 @@
  *
  *  @return shared object of `AKSpellingCorrector`.
  */
-+ (AKSpellingCorrector*)sharedInstance;
++ (instancetype)sharedInstance;
 
 @end
